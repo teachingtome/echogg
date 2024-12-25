@@ -1,0 +1,45 @@
+/* components/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50; /* Dark navy background */
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Position it at the top */
+  width: 100%; /* Make it span the full width */
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+.logo a {
+  font-size: 20px;
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a {
+  margin-left: 20px;
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  margin-left: 20px;
+  color: #ffffff; /* White text */
+  /*background-color: #3498db; /* Button background color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
